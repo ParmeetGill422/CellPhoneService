@@ -12,4 +12,7 @@ public class CellPhone {
         phoneNumber = "";
         owner = "";
     }
+    public void dial(String targetNumber) {
+        System.out.println(owner + "'s phone is calling " + targetNumber);
+    }
 }
